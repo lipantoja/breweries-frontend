@@ -1,12 +1,14 @@
 import { Header } from "./Header";
-import { BreweriesPage } from "./BreweriesPage";
+// import { BreweriesPage } from "./BreweriesPage";
 import { Footer } from "./Footer";
+import { Map } from "./Map"
 
 function App() {
   return (
     <div>
       <Header />
-      <BreweriesPage />
+      <Map />
+      {/* <BreweriesPage /> */}
       <Footer />
     </div>
   )
