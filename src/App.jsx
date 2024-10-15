@@ -1,12 +1,12 @@
 import { Header } from "./Header";
-import { PhotosPage } from "./BreweriesPage";
+import { BreweriesPage } from "./BreweriesPage";
 import { Footer } from "./Footer";
 
 function App() {
   return (
     <div>
       <Header />
-      <PhotosPage />
+      <BreweriesPage />
       <Footer />
     </div>
   )
