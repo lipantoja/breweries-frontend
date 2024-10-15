@@ -1,7 +1,11 @@
+import { BreweriesIndex } from "./BreweriesIndex";
 export function BreweriesPage() {
+  // Place holder data if needed
+  // const breweries = [
+  // {id: 1, etc.}]
   return (
     <main>
-      <h1>Welcome to React!</h1>
+      <BreweriesIndex breweries={breweries} />
     </main>
   )
 }
